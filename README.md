@@ -1,6 +1,6 @@
 # jGrader
 Program to facilitate automated grading of Java programs.
 
-[I'm an inline-style link](https://www.google.com)
+[javadoc](http://mypages.valdosta.edu/dgibson/jGrader/doc_all/) for developer - all members
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+

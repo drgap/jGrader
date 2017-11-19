@@ -1,0 +1,19 @@
+# Test 1 Expected Results
+Account constructor
+20.0
+2
+acnt.getNumWithdrawals()=0
+%d 1000.0 %tp 1.0 acnt.getBalanace()=$1,000.00
+# Test 2 Expected Results
+Account constructor detailed
+10.0
+4
+acnt.getName()=Walter
+acnt.getNumWithdrawals()=0
+acnt.isOverdrawn()= false
+%d 1000.0 %tp 1.0 acnt.getBalanace()=$1,000.00
+# Test 3 Expected Results
+Account aggregate test
+10.0
+1
+acnt.getName()=Walter, acnt.getNumWithdrawals()=0, acnt.isOverdrawn()= false

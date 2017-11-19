@@ -1,0 +1,19 @@
+Test: 1-Account constructor
+Correct - Expected: acnt.getNumWithdrawals()=0 | Actual: acnt.getNumWithdrawals()=0
+Correct - Expected: acnt.getBalanace()=$1,000.00 | Actual: acnt.getBalanace()=$1,000.00
+Actual Error=0.0<10.0=Max Error
+Summary: 2 out of 2 answers correct : 20.0 points out of 20.0
+
+Test: 2-Account constructor detailed
+Correct - Expected: acnt.getName()=Walter | Actual: acnt.getName()=Walter
+Correct - Expected: acnt.getNumWithdrawals()=0 | Actual: acnt.getNumWithdrawals()=0
+Correct - Expected: acnt.isOverdrawn()= false | Actual: acnt.isOverdrawn()= false
+Correct - Expected: acnt.getBalanace()=$1,000.00 | Actual: acnt.getBalanace()=$1,000.00
+Actual Error=0.0<10.0=Max Error
+Summary: 4 out of 4 answers correct : 10.0 points out of 10.0
+
+Test: 3-Account aggregate test
+Correct - Expected: acnt.getName()=Walter, acnt.getNumWithdrawals()=0, acnt.isOverdrawn()= false | Actual: acnt.getName()=Walter, acnt.getNumWithdrawals()=0, acnt.isOverdrawn()= false
+Summary: 1 out of 1 answers correct : 10.0 points out of 10.0
+
+Overall Summary: 40.0 points out of 40.0 (100.0%)

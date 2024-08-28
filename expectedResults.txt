@@ -1,19 +1,36 @@
 # Test 1 Expected Results
+BasketballPlayer: getTotalPoints()
+20.0
+1
+3-f,2-f,1-t,1-t,2-t,3-f,3-t,1-f,2-t,3-f,3-t: getTotalPoints()=12
+# Test 2 Expected Results
 Account constructor
 20.0
 2
-acnt.getNumWithdrawals()=0
-%d 1000.0 %tp 1.0 acnt.getBalanace()=$1,000.00
-# Test 2 Expected Results
-Account constructor detailed
-10.0
-4
-acnt.getName()=Walter
-acnt.getNumWithdrawals()=0
-acnt.isOverdrawn()= false
-%d 1000.0 %tp 1.0 acnt.getBalanace()=$1,000.00
+acnt.getName()=Xavier
+acnt.getBalanace()=$1,000.00
 # Test 3 Expected Results
+getBalance after multiple deposit/withdrawals
+10.0
+3
+%d 2851.86 %tp 1.0 acnt.getBalanace()=$2,851.86
+%d 3618.5 %ta 5.0 acnt.getBalanace()=$3,618.50
+java.lang.IndexOutOfBoundsException: index must be >0
+# Test 4 Expected Results
 Account aggregate test
 10.0
 1
-acnt.getName()=Walter, acnt.getNumWithdrawals()=0, acnt.isOverdrawn()= false
+java.lang.IndexOutOfBoundsException: index must be >0
+# Test 1 (Manual) Expected Results
+---> GRADE MANUALLY <---, bballPlayer.toString()
+Player:Paul, points:12
+   Free Throws: made:2, attempted:3, percent:66.7
+    2 Pointers: made:2, attempted:3, percent:66.7
+Three Pointers: made:2, attempted:5, percent:40.0
+
+# Test 2 (Manual) Expected Results
+---> GRADE MANUALLY <---, getBalance()
+getBalance()=1000.0
+# Test 3 (Manual) Expected Results
+---> GRADE MANUALLY <---, toString
+Account: name=Walter, balance=$1,000.00, num withdrawals=0, isOverdrawn=false

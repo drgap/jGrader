@@ -1,3 +1,5 @@
+package ver11_dev;
+
 /**
  * Sample class used to illustrate how tests are written in <code>TestSuite</code>.
  */
@@ -17,7 +19,8 @@ public class Account {
 	}
 
 	public boolean isOverdrawn() {
-		return isOverdrawn;
+		throw new IndexOutOfBoundsException("index must be >0");
+		//return isOverdrawn;
 	}
 
 	public double getBalance() {

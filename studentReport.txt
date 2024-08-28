@@ -1,19 +1,23 @@
+Student Name: jGrader
+
 Test: 1-Account constructor
-Correct - Expected: acnt.getNumWithdrawals()=0 | Actual: acnt.getNumWithdrawals()=0
+Correct - Expected: acnt.getName()=Xavier | Actual: acnt.getName()=Xavier
 Correct - Expected: acnt.getBalanace()=$1,000.00 | Actual: acnt.getBalanace()=$1,000.00
-Actual Error=0.0<10.0=Max Error
 Summary: 2 out of 2 answers correct : 20.0 points out of 20.0
 
-Test: 2-Account constructor detailed
-Correct - Expected: acnt.getName()=Walter | Actual: acnt.getName()=Walter
-Correct - Expected: acnt.getNumWithdrawals()=0 | Actual: acnt.getNumWithdrawals()=0
-Correct - Expected: acnt.isOverdrawn()= false | Actual: acnt.isOverdrawn()= false
-Correct - Expected: acnt.getBalanace()=$1,000.00 | Actual: acnt.getBalanace()=$1,000.00
-Actual Error=0.0<10.0=Max Error
-Summary: 4 out of 4 answers correct : 10.0 points out of 10.0
+Test: 2-getBalance after multiple deposit/withdrawals
+Correct - Expected: acnt.getBalanace()=$2,851.86 | Actual: acnt.getBalanace()=$2,851.86
+  Actual Error=0.0<28.518600000000003=Max Error
+Correct - Expected: acnt.getBalanace()=$3,618.50 | Actual: acnt.getBalanace()=$3,618.50
+  Actual Error=0.0<5.0=Max Error
+Correct - Expected: java.lang.IndexOutOfBoundsException: index must be >0 | Actual: java.lang.IndexOutOfBoundsException: index must be >0
+Summary: 3 out of 3 answers correct : 10.0 points out of 10.0
 
-Test: 3-Account aggregate test
-Correct - Expected: acnt.getName()=Walter, acnt.getNumWithdrawals()=0, acnt.isOverdrawn()= false | Actual: acnt.getName()=Walter, acnt.getNumWithdrawals()=0, acnt.isOverdrawn()= false
-Summary: 1 out of 1 answers correct : 10.0 points out of 10.0
+Overall Summary: 30.0 points out of 30.0 (100.0%)
+5 out of 5 (100.0%) tests succeeded
 
-Overall Summary: 40.0 points out of 40.0 (100.0%)
+Test: 3----> GRADE MANUALLY <---, toString
+Expected:
+Account: name=Walter, balance=$1,000.00, num withdrawals=0, isOverdrawn=false
+Actual:
+Account: name=Walter, balance=$1,000.00, num withdrawals=0, isOverdrawn=false
